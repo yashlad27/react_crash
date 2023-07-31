@@ -19,3 +19,6 @@ export default FunctionClick
 
 // onClick = {clickHandler()} -> function call -> we dont want this
 // onClick = {clickHandler} -> passing a function
+// event handler is a function and not a function call 
+
+// problem occurs in Class components when whole page renders on click of a button.
