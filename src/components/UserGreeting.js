@@ -18,7 +18,10 @@ class UserGreeting extends Component {
     
     render() {
 
-        // Method-3 -> Ternary Conditional Operator 
+        // Method-4 -> Short circuit operator: Rec
+        return this.state.isLoggedIn && <div>Welcome Yash</div>
+
+        // Method-3 -> Ternary Conditional Operator: Rec
         // return (
         //     this.state.isLoggedIn ? (
         //     <div>Welcome Yash</div> 
