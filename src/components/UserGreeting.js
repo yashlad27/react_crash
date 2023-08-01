@@ -18,6 +18,15 @@ class UserGreeting extends Component {
     
     render() {
 
+        // Method-3 -> Ternary Conditional Operator 
+        // return (
+        //     this.state.isLoggedIn ? (
+        //     <div>Welcome Yash</div> 
+        //     ) : ( 
+        //     <div>Welcome Guest </div>
+        //     )
+        // )
+
         // Method-2: Element Variables
         // let message
         // if (this.state.isLoggedIn) {
