@@ -1,6 +1,7 @@
 // List Rendering 
 
 import React from 'react'
+import Person from './Person'
 
 function NameList() {
     const names = ['Burce', 'Clark', 'Diana']
@@ -26,20 +27,23 @@ function NameList() {
         }
     ]
 
-  return (
-    <div>
-        {/* Normal Array slicing */}
-        {/* <h2>{names[0]}</h2>
-        <h2>{names[1]}</h2>
-        <h2>{names[2]}</h2> */}
+    const personList = persons.map(person => <Person person={person} />)
+    return <div>{personList}</div>
 
-        {/* Map method: */}
-        {
-            names.map(name => <h2>{name}</h2>)
-        }
-    </div>
+//   return (
+//     <div>
+//         {/* Normal Array slicing */}
+//         {/* <h2>{names[0]}</h2>
+//         <h2>{names[1]}</h2>
+//         <h2>{names[2]}</h2> */}
+
+//         {/* Map method: */}
+//         {
+//             names.map(name => <h2>{name}</h2>)
+//         }
+//     </div>
     
-  )
+//   )
 }
 
 export default NameList
