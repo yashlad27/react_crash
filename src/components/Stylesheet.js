@@ -4,13 +4,19 @@
 // 3. CSS modules
 // 4. CSS in JS libs
 
-
 import React from 'react'
 import './myStyles.css'
 
-function Stylesheet() {
+function Stylesheet(props) {
+
+  let className = props.primary ? 'primary' : ''
+
   return (
-    <div className='primary'>Stylesheet</div>
+    <div>
+        <h1 className={` ${className} font-xl`}>
+            Stylesheets
+        </h1>
+    </div>
   )
 }
 
