@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import LifeCycleB from './LifeCycleB'
 
 class LifeCycleA extends Component {
+    // Mounting Lifecycle Components
     constructor(props) {
       super(props)
     
@@ -15,8 +16,14 @@ class LifeCycleA extends Component {
       console.log('LifecycleA getDerivedStateFromProps')
       return null
     }
+
     componentDidMount() {
         console.log('LifecycleA componentDidMount')
+    }
+
+    // Update Lifecycle Components
+    shouldComponentUpdate() {
+        console.log('lifecycleA shouldComponentUpdate')
     }
     
   render() {
