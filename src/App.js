@@ -15,12 +15,25 @@ import './App.css';
 // import './appStyles.css';
 // import styles from './appStyles.module.css';
 // import Form from './components/Form';
-import LifeCycleA from './components/LifeCycleA';
+// import LifeCycleA from './components/LifeCycleA';
+// import FragmentDemo from './components/FragmentDemo';
+// import Table from './components/Table';
+// import PureComp from './components/PureComp';
+import ParentComp from './components/Advanced/ParentComp';
 
 function App() {
   return (
     <div className="App">
-      <LifeCycleA />
+
+      <ParentComp />
+
+      {/* <PureComp /> */}
+
+      {/* <Table /> */}
+
+      {/* <FragmentDemo /> */}
+
+      {/* <LifeCycleA /> */}
 
       {/* <Form /> */}
 
