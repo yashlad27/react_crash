@@ -2,11 +2,11 @@ import React from 'react'
 
 function Columns() {
 
-    const items = []
+    // const items = []
 
   return (
-    <React.Fragment>
-        {
+    <>
+        {/* {
             items.map( item => (
                 <React.Fragment key={item.id}>
                     <h1>Title</h1>
@@ -14,10 +14,11 @@ function Columns() {
                 </React.Fragment>
                     
             ))
-        }
+        } */}
+        
         <td>Name</td>
         <td>Application-Number</td>
-    </React.Fragment>
+    </>
   )
 }
 
