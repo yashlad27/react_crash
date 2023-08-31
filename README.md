@@ -1,5 +1,6 @@
-React Redux Crash - 2023
+### React Redux Crash - 2023
 
+---
 ## Pure Components: 
 1. We can create a component by extending the Pure component class.
 2. Pure component implements shouldComponentUpdate with a shallow prop and state comparison.
