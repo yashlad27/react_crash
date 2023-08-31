@@ -15,12 +15,15 @@ import './App.css';
 // import './appStyles.css';
 // import styles from './appStyles.module.css';
 // import Form from './components/Form';
-import LifeCycleA from './components/LifeCycleA';
+// import LifeCycleA from './components/LifeCycleA';
+import FragmentDemo from './components/FragmentDemo';
 
 function App() {
   return (
     <div className="App">
-      <LifeCycleA />
+      <FragmentDemo />
+
+      {/* <LifeCycleA /> */}
 
       {/* <Form /> */}
 
