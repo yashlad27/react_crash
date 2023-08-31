@@ -1,5 +1,5 @@
 import React from 'react'
-import Columns from './Columns'
+import Columns from '../Basics/Columns'
 
 function Table() {
   return (
