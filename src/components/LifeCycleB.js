@@ -17,6 +17,15 @@ class LifeCycleB extends Component {
     componentDidMount() {
         console.log('LifecycleB componentDidMount')
     }
+
+    getSnapshotBeforeUpdate() {
+      console.log('LifecycleA getSnapshotbeforeupdate')
+      return null
+    }
+
+    componentDidUpdate() {
+      console.log('LifeCycleA component did Update')
+    }
     
   render() {
     console.log('LifecycleB render')
