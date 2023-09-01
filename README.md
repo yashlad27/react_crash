@@ -24,3 +24,11 @@
 4. We can use refs in cases where we want to trigger imperative animations.
 5. We can use refs in cases where we want to integrate third party libraries in our application.
 6. We can use refs in cases where we want to integrate with DOM elements.
+
+## What are Hooks?
+
+1. Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class.
+2. Hooks are functions that let you “hook into” React state and lifecycle features from function components.
+3. Hooks don’t work inside classes — they let you use React without classes.
+4. Hooks provide access to imperative escape hatches and don’t require you to learn complex functional or reactive programming techniques.
+5. Hooks are completely opt-in. You can try Hooks in a few components without rewriting any existing code. But you don’t have to learn or use Hooks right now if you don’t want to.
